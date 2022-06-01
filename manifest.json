@@ -6,10 +6,6 @@
 
 	"description": "Auto-corrects older rustdoc pages to be `/latest/`.",
 
-	"icons": {
-		"48": "icons/border-48.png"
-	},
-
 	"content_scripts": [
 		{
 			"matches": ["*://*.docs.rs/*"],
